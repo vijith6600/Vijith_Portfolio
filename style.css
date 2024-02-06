@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Merriweather&family=Montserrat:wght@100;200;300;400&display=swap');
 :root{
     --color-body:rgb(255, 255, 255);
-    --color-heading:rgb(249, 231, 244);
-    --color-base:rgb(6, 57, 49);
-    --color-base2:rgb(4, 36, 31);
-    --color-brand:rgb(209, 247, 42);
+    --color-heading:rgb(255, 255, 255);
+    --color-heading1:rgb(0, 0, 0);
+    --color-heading1:rgb(0, 0, 0);
+    --color-base:rgb(0, 0, 0);
+    --color-base2:rgb(255, 255, 255);
+    --color-brand:rgb(255, 179, 27);
     --color-brand2:rgb(174, 211, 38);
     --sidebar-width:240px;
     --font-base:"bai jamjuree";
-    
 }
 
+.heading h1{color: var(--color-heading1);
+}
 
 
 body{
@@ -30,7 +33,7 @@ a{
 
 
 #myname{
-    color: rgb(18, 184, 255);
+    color: rgb(255, 255, 255);
 }
 
 .bg-base{
@@ -46,7 +49,7 @@ a{
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .text-brand{
@@ -104,7 +107,7 @@ font-size: 32px;
         min-height: 100vh;
         width: var(--sidebar-width);
         background: linear-gradient(rgb(0, 0, 0)
-        ,rgba(53, 53, 53, 0.735));
+        ,rgb(0, 0, 0));
         background-size: cover;
         background-position: center;
     }
@@ -145,6 +148,18 @@ font-size: 32px;
 }
 .link-custom:hover::after{
     width: 100%;
+}
+
+#home{
+    background: linear-gradient(0deg, rgb(85, 85, 85), rgb(0, 0, 0) 20%) no-repeat;
+    color: var(--color-heading);
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+
+}
+
+#services{background: linear-gradient(0deg, rgb(255, 255, 255), rgb(85,85,85) 90%) no-repeat;
+
 }
 
 .card-custom .card-custom-image{
