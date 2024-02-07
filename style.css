@@ -103,7 +103,7 @@ font-size: 32px;
     border-color: var(--color-brand);
 }
 
-@media(min-width:992px){
+@media(min-width:992px) {
     .navbar{
         min-height: 100vh;
         width: var(--sidebar-width);
@@ -118,6 +118,14 @@ font-size: 32px;
         padding-left: var(--sidebar-width);
     }
 }
+
+
+@media(min-width:768px) and (max-width:991px){
+    .col-md-4{
+    }
+}
+
+
 
 .btn{
     padding: 12px 28px;
@@ -181,7 +189,7 @@ margin-bottom: -10px;
     font-size: 18px;
 }
 .progress{
-    height: 10px;
+    height: 8px;
 }
 
 
