@@ -2,13 +2,13 @@
 :root{
     --color-body:rgb(255, 255, 255);
     --color-heading:rgb(254, 254, 254);
-    --color-heading1:rgb(0, 0, 0);
+    --:rgb(0, 0, 0);
     --color-p:rgb(255, 255, 255);
     --color-base:rgb(59, 59, 59);
     --color-base2:rgb(255, 255, 255);
     --color-bg:rgb(255, 255, 255);
-    --color-brand:rgb(255, 193, 47);
-    --color-brand2:rgb(51, 255, 255);
+    --color-brand:#ffa500;
+    --color-brand2:#ffa500;
     --sidebar-width:240px;
     --font-base:"bai jamjuree";
 }
@@ -82,7 +82,7 @@ font-size: 32px;
 
 /* navbar */
 .navbar{
-    background-color: var(--color-base);
+    background-color: black;
 }
 
 .navbar .nav-link{
@@ -109,29 +109,6 @@ font-size: 32px;
 
 
 
-@media(min-width:992px) {
-    .navbar{
-        min-height: 100vh;
-        width: var(--sidebar-width);
-        background: linear-gradient(rgb(0, 0, 0)
-        ,rgb(0, 0, 0));
-        background-size: cover;
-        background-position: center;
-    }
-
-    /* content */
-    #content{
-        padding-left: var(--sidebar-width);
-    }
-}
-
-@media(max-width:992px) {
-    .navbar{
-     position: relative;
-    }
-
-  
-}
 
 
 
@@ -241,6 +218,40 @@ margin-bottom: -10px;
 .headdark{
     color: var(--color-base);
 }
+
+.footericonhead{
+    color: rgba(83, 82, 82, 0.475);
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+
+
+@media(min-width:992px) {
+    .navbar{
+        min-height: 100vh;
+        width: var(--sidebar-width);
+        background: linear-gradient(rgb(0, 0, 0)
+        ,rgb(0, 0, 0));
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* content */
+    #content{
+        padding-left: var(--sidebar-width);
+    }
+}
+
+/* @media(max-width:992px) {
+    .navbar{
+     position: relative;
+    }
+
+  
+} */
+
 
 
 
