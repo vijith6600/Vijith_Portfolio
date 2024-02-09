@@ -26,7 +26,6 @@ body{
     font-family: var(--font-base),sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-    color: var(--color-heading);
     font-weight: 600;
 }
 a{
@@ -126,7 +125,19 @@ font-size: 32px;
     }
 }
 
+@media(max-width:992px) {
+    .navbar{
+     position: relative;
+    }
 
+  
+}
+
+
+
+.project-img{
+    border: 7px solid var(--color-base);
+}
 
 
 
@@ -221,6 +232,16 @@ margin-bottom: -10px;
     margin-left: 25px;
     font-size: 15px;
 }
+
+.Copyright{
+    color: var(--color-base);
+    text-align: center;
+}
+
+.headdark{
+    color: var(--color-base);
+}
+
 
 
 
